@@ -1,0 +1,34 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-width: 2px;
+    padding: 32px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.idStyle {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bolder;
+    align-items: center;
+    color: rgb(39, 100, 196);
+    font-size: x-large;
+}
+
+.userImageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.userImageIdContainer {
+    margin-bottom: 32px;
+}
+
+.interviewButton {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(39, 100, 196);
+    background-color: white;
+    color: rgb(39, 100, 196);
+}

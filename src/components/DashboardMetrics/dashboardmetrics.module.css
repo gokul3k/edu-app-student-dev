@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    background-color: rgb(39, 100, 196);
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.metrics {
+    font-weight: bolder;
+    font-size: medium;
+    margin: 0px;
+    text-align: center;
+}
+
+.value {
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0px;
+}

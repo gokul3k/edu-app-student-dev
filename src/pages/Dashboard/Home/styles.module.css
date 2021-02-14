@@ -1,0 +1,22 @@
+.container {
+    /* background-color: red; */
+}
+
+.name {
+    color: rgb(39, 100, 196);
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+
+.subHeadings {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.metrics {
+    margin-right: 64px;
+    margin-left: 64px;
+}

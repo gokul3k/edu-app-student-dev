@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+    align-items: center;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.textContainer {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.img {
+    display: flex;
+    flex: 1;
+    margin-top: 16px;
+    /* height: 200px; */
+    max-width: 250px;
+    margin-left: 16px;
+    border-radius: 10px;
+    border: 2px solid #2262c6;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 16px;
+}

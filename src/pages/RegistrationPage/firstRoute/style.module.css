@@ -1,0 +1,40 @@
+.container {
+    margin-bottom: 32px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.textField {
+    padding-top: 8px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.hideImg {
+    display: none;
+}
+
+.errorText {
+    color: red;
+}
+
+.btn {
+    align-self: flex-end;
+    margin-top: 16px !important;
+    max-width: 280px;
+    height: 30px;
+    float: left;
+    background-color: rgb(39, 101, 195) !important;
+    text-transform: none !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}

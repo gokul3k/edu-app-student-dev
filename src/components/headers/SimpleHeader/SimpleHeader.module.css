@@ -1,0 +1,13 @@
+.header{
+    flex-shrink: 0;
+}
+.bg_light{
+    background-color: white;
+}
+.header_button{
+    font-size: .8rem !important;
+    letter-spacing: normal !important;
+    font-family: inherit !important;
+    text-transform: none !important;
+    margin-left: 16px;
+}

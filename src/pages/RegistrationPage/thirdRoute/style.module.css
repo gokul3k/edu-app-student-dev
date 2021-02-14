@@ -1,0 +1,27 @@
+.container {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.btn {
+    margin-top: 16px;
+    background-color: white;
+    color: rgb(39, 101, 195);
+    border: 1px solid rgb(39, 101, 195);
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}

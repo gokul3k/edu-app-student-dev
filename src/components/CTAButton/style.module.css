@@ -1,0 +1,10 @@
+.btnStyle {
+    background-color: rgb(39, 101, 195);
+    border-radius: 10px;
+    border-width: 0px;
+    color: white;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

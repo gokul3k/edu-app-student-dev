@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex: 1;
+    background-color: rgb(39, 100, 196);
+    border-top-right-radius: 70px;
+    margin-right: 16px;
+    padding: 16px;
+    padding-top: 32px;
+}

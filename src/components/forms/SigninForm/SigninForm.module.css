@@ -1,0 +1,87 @@
+
+
+.form_input{
+    padding-left:16px;
+    padding-right: 0px;
+    background-color: white;
+    width: 100% !important;
+    border-radius: 5px;
+    max-height: 35px;
+}
+.form_label{
+    font-size: .9rem;
+    color: white;
+}
+.text_muted{
+    color: rgb(226, 226, 226) !important;
+    font-size: .7rem;
+}
+
+.login_button{
+    width: 100% !important;
+    color: #fff !important;
+    background-color:#e53935 !important;
+    border:0px !important; 
+    border-radius: .5rem !important;
+    text-transform: capitalize !important;
+    margin-top: 16px !important;
+}
+.login_button:hover
+{
+color: #fff !important;
+background-color: #e53935 !important; 
+border:0px !important; 
+}
+
+
+.custom_control_label{
+    color: white;
+
+}
+.custom_control_label:before{
+
+    background-color:white;
+    border:none !important;
+  }
+  .custom_checkbox .custom_control_input:checked~.custom_control_label::before{
+    background-color:#e53935;
+    border:none !important;
+    box-shadow: none;
+
+  }
+
+.label222{
+    
+    color:white !important;
+    font-size: .8rem !important;
+    line-height: 1.2 !important;
+    font-family: inherit !important;
+    font-weight: 550 !important;
+    letter-spacing: inherit !important;
+}
+.custom_alert{
+    position: absolute !important;
+    top: 20% !important;
+    max-height: 60px;
+    font-size: .7rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left:16px;
+    padding-right: 16px;
+    border: none;
+    left: 0;
+    right: 0;
+    max-width: 70%;
+    text-align: center;
+    background-color: #d40909;
+    color: white;
+}
+.invalid{
+    font-size: .8rem;
+    color: yellow;
+}
+.password_reset_button{
+    text-transform: none !important;
+    float: right;
+    color: white !important;
+}

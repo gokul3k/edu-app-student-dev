@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    justify-content: start;
+}
+
+.textField {
+    display: flex;
+    flex: 2;
+    color: #1976d2;
+    /* justify-content: stretch; */
+    text-transform: capitalize;
+    justify-items: start;
+}
+
+.heading {
+    flex: 3;
+    /* font-weight: bold; */
+    color: grey;
+    text-transform: capitalize;
+}

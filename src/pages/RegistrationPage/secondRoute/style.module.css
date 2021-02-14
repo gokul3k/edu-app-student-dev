@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* background-color: red; */
+    /* justify-content: space-between; */
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.subDiv {
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #a4a4a4;
+    padding: 32px;
+    margin: 32px;
+}
+
+.subDivHeading {
+    color: grey;
+}
+
+.textField {
+    background-color: white;
+}
+
+.firstForm {
+    display: flex;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    justify-content: center;
+    padding: 16px;
+    flex-direction: column;
+}
+
+.secondForm {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: center;
+    padding: 16px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+}

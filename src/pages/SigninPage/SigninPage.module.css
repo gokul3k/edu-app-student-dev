@@ -1,0 +1,142 @@
+.signin_page_container_fluid{
+    height: 100% !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    overflow: auto;
+
+}
+.signin_page_contents{
+    display: flex;
+    flex: 1 0 auto ;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../../assets/images/loginbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signin_page_card_container{
+    margin:8px;
+    min-height: 580px;
+    width: 70%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+@media(max-width:576px){
+    .signin_page_container_fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .signin_page_card_container{
+        flex-direction: column-reverse;
+        padding: 0xp !important;
+        width: 100% !important;
+        margin: 0px;
+    }
+}
+@media(max-width:992px){
+    .signin_page_container_fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .signin_page_card_container{
+        margin-top: 32px !important;
+        flex-direction: column-reverse;
+        width: 80% ;
+        margin: 0px;
+    }
+}
+
+.signin_page_welcome_text{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top:42px ;
+    margin-bottom:6px;
+}
+.signin_page_welcome_sub{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-bottom:32px;
+}
+
+.new_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.new_para{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    font-weight: 600;
+}
+.new_heading{
+    font-family: cursive;
+    font-size: xx-large;
+    margin-bottom: 24px;
+}
+.heading_span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.register_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signin_page_card_details{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center;
+    align-items: center;
+    justify-content: center; */
+    justify-content: space-around;
+    padding: 24px;
+}
+.signin_page_signup_button{
+    padding-left: 32px;
+    padding-right: 32px;
+    text-transform: capitalize !important;
+    background-color: #1976d2 !important;
+    color: white !important;
+    min-width: 500px;
+    max-width: 800px;
+    margin-bottom: 16px;
+}
+.signin_page_card_image{
+    max-width: 500px;
+}
+.signin_page_brand{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.signin_page_privacy{
+    color:white;
+    font-size: .8rem;
+    font-weight: 600;
+
+}
+/* mouse over link */
+.signin_page_privacy:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .form_container{
+    background-color: #1976d2;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
