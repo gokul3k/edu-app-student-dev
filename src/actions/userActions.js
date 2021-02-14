@@ -28,7 +28,7 @@ import { setCredentials, removeCredentials } from '../services/authService';
 import { setUserInfo } from '../services/userService'
 import clearStorage from 'services/clearStorage';
 
-const BASE_URL = 'https://bestenlist.com/api';
+const BASE_URL = 'https://edu-app-server-beta.herokuapp.com';
 
 const getUserInfo = () => async (dispatch, getState) => {
     try {
